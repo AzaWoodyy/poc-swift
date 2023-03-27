@@ -14,6 +14,9 @@
 		C6A3EAD529D1922000F1D7B9 /* NpmApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A3EAD429D1922000F1D7B9 /* NpmApiTests.swift */; };
 		C6A3EADF29D1922000F1D7B9 /* NpmApiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A3EADE29D1922000F1D7B9 /* NpmApiUITests.swift */; };
 		C6A3EAE129D1922000F1D7B9 /* NpmApiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A3EAE029D1922000F1D7B9 /* NpmApiUITestsLaunchTests.swift */; };
+		C6A3EAEE29D1930F00F1D7B9 /* NpmPackage.model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A3EAED29D1930F00F1D7B9 /* NpmPackage.model.swift */; };
+		C6A3EAF029D196FD00F1D7B9 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A3EAEF29D196FD00F1D7B9 /* Api.swift */; };
+		C6A3EAF229D1993300F1D7B9 /* User.model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A3EAF129D1993300F1D7B9 /* User.model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		C6A3EADA29D1922000F1D7B9 /* NpmApiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NpmApiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6A3EADE29D1922000F1D7B9 /* NpmApiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NpmApiUITests.swift; sourceTree = "<group>"; };
 		C6A3EAE029D1922000F1D7B9 /* NpmApiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NpmApiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C6A3EAED29D1930F00F1D7B9 /* NpmPackage.model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NpmPackage.model.swift; sourceTree = "<group>"; };
+		C6A3EAEF29D196FD00F1D7B9 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		C6A3EAF129D1993300F1D7B9 /* User.model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 				C6A3EAC529D1921F00F1D7B9 /* ContentView.swift */,
 				C6A3EAC729D1922000F1D7B9 /* Assets.xcassets */,
 				C6A3EAC929D1922000F1D7B9 /* Preview Content */,
+				C6A3EAED29D1930F00F1D7B9 /* NpmPackage.model.swift */,
+				C6A3EAEF29D196FD00F1D7B9 /* Api.swift */,
+				C6A3EAF129D1993300F1D7B9 /* User.model.swift */,
 			);
 			path = NpmApi;
 			sourceTree = "<group>";
@@ -257,7 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6A3EAEE29D1930F00F1D7B9 /* NpmPackage.model.swift in Sources */,
 				C6A3EAC629D1921F00F1D7B9 /* ContentView.swift in Sources */,
+				C6A3EAF229D1993300F1D7B9 /* User.model.swift in Sources */,
+				C6A3EAF029D196FD00F1D7B9 /* Api.swift in Sources */,
 				C6A3EAC429D1921F00F1D7B9 /* NpmApiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

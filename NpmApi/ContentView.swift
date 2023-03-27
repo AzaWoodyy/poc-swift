@@ -8,14 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var users: [User] = []
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        List(users) { user in
+            Text(user.username)
+                .font(.headline)
+            Text(user.name)
+                .font(.subheadline)
         }
-        .padding()
+        .onAppear {
+            apiCall().getUsers { (users) in
+                self.users = users
+            }
+        }
     }
 }
 
